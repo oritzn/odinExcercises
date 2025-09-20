@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    text-align: center;
+}
+
+img {
+    height: 500px;
+}
+
+.lowerBody {
+    margin-left: 5%;
+    background-color: rgb(158, 200, 236);
+}
+
+#linkWrapper {
+    margin-top: 30px;
+}
+
+.link {
+    background-color: rgb(158, 200, 236);
+    border-radius: 1px;
+    padding: 5px;
+    margin-top: 100px;
+}
