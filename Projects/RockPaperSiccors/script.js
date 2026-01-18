@@ -7,8 +7,14 @@ function playGame() {
         const computerSelection = getComputerChoice().toLowerCase();
 
         playRound(humanSelection, computerSelection);
-        
+
         console.log("Human: " + playerScore + " Computer: " + computerScore);
+    }
+
+    if(computerScore > playerScore) {
+        console.log("Game Over Computer Won");
+    }else {
+        console.log("Game Over Player Won");
     }
 }
 
