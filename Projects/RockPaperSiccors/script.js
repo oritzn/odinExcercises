@@ -7,6 +7,7 @@ function playGame() {
         const computerSelection = getComputerChoice().toLowerCase();
 
         playRound(humanSelection, computerSelection);
+        
         console.log("Human: " + playerScore + " Computer: " + computerScore);
     }
 }
@@ -45,9 +46,9 @@ function playRound(humanChoice, computerChoice) {
 function getComputerChoice() {
     let computerChoice = Math.floor(Math.random() * 3);
 
-    if(choice == 0) {
+    if(computerChoice == 0) {
         computerChoice = "rock";
-    }else if(choice == 1) {
+    }else if(computerChoice == 1) {
         computerChoice = "paper";
     }else {
         computerChoice = "scissor";
