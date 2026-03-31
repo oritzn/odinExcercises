@@ -1,0 +1,51 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#wrapperCalculator {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+#topPart {
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(205, 211, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+#numberInput {
+    width: 90%;
+    height: 45%;
+    border-radius: 5px;
+    border: 1px solid rgb(95, 95, 95);
+    font-size: 2rem;
+}
+
+#bottomPart {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 211, 223);
+}
+#wrapperNumbers {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 5px;
+}
