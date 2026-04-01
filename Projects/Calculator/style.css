@@ -10,7 +10,7 @@ html, body {
 #wrapperCalculator {
     border: 1px solid black;
     border-radius: 10px;
-    height: 50%;
+    height: 60%;
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -48,4 +48,36 @@ html, body {
     height: 90%;
     background-color: white;
     border-radius: 5px;
+}
+.row {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    font-size: 1.5rem;
+    border-radius: 25px;
+}
+.row > div:hover {
+    background-color: rgb(205, 211, 223);
+    cursor: pointer;
+}
+#equals {
+    background-color: rgba(108, 248, 108, 0.541);
+}
+#equals:hover {
+    background-color: rgba(55, 194, 55, 0.541);
+}
+#clear {
+    background-color: rgba(250, 108, 108, 0.822);
+}
+#clear:hover {
+    background-color: rgb(209, 72, 72);
 }
